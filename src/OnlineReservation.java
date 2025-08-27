@@ -106,7 +106,7 @@ public  class OnlineReservation{
                     System.out.println("1. Insert Record.\n");
                     System.out.println("2. Delete Record.\n");
                     System.out.println("3. Show All Records.\n");
-                    System.out.println("3. Exit.\n");
+                    System.out.println("4. Exit.\n");
                     int choice = sc.nextInt();
 
                     if(choice == 1){
