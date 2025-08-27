@@ -90,7 +90,7 @@ public  class OnlineReservation{
         String username = u1.getUsername();
         String password = u1.getPassword();
 
-        String url = "jdbc:mysql://localhost:3306/reservationdata";
+        String url = "jdbc:mysql://localhost:3306/DetailsOfPassenger";
         try{
 
             Class.forName("com.mysql.cj.jdbc.Driver");
@@ -106,6 +106,7 @@ public  class OnlineReservation{
                     System.out.println("1. Insert Record.\n");
                     System.out.println("2. Delete Record.\n");
                     System.out.println("3. Show All Records.\n");
+                    System.out.println("3. Exit.\n");
                     int choice = sc.nextInt();
 
                     if(choice == 1){
