@@ -21,5 +21,5 @@ Installation & Setup:
 2. Create a MySQL Database: 
           CREATE DATABASE DetailsOfPassenger;
 3. Create the Required Table:
-4.        Use the following SQL commands to create the table:
+          Use the following SQL commands to create the table:
               
