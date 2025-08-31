@@ -15,7 +15,7 @@ Connector: JDBC
 
 Installation & Setup:
 1. Clone the repository:
-              git clone https://github.com/your-username/online-reservation-system.git
+              git clone https://github.com/root/online-reservation-system.git
               cd online-reservation-system
 2. Create a MySQL Database: 
               CREATE DATABASE ReservationDB;
