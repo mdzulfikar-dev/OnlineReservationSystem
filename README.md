@@ -21,14 +21,5 @@ Installation & Setup:
 2. Create a MySQL Database: 
           CREATE DATABASE DetailsOfPassenger;
 3. Create the Required Table:
-          Use the following SQL commands to create the table:
-               CREATE TABLE reservations (
-                   pnr_number INT PRIMARY KEY,
-                   passenger_name VARCHAR(100) NOT NULL,
-                   train_number VARCHAR(20) NOT NULL,
-                   class_type VARCHAR(20) NOT NULL,
-                   journey_date VARCHAR(20) NOT NULL,
-                   from_station VARCHAR(50) NOT NULL,
-                   to_station VARCHAR(50) NOT NULL
-               );
-  
+4.        Use the following SQL commands to create the table:
+              
