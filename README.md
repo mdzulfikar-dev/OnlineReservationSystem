@@ -8,17 +8,18 @@ Cancel an existing reservation
 View all reservations
 Data stored securely in MySQL database
 
-Tech Stack:
+**Tech Stack**
 1. Programming Language: Java
 2. Database: MySQL
 3. Connector: JDBC
 
 
-Installation & Setup:
+**Installation & Setup**
 1. Clone the repository:
            git clone https://github.com/mdzulfikar-dev/OnlineReservationSystem.git
            cd online-reservation-system
 2. Create a MySQL Database and it also contains reaservations table:
+
            ```sql
            CREATE DATABASE DetailsOfPassenger;
            CREATE TABLE reservations (
@@ -30,7 +31,40 @@ Installation & Setup:
                    from_station VARCHAR(50) NOT NULL,
                    to_station VARCHAR(50) NOT NULL
            );
-  
+           
+3. **Update Database Credentials in Code**
+
+          String url = "jdbc:mysql://localhost:3306/DetailsOfPassenger";
+          String username = "your-username";
+          String password = "your-password";  
+        
+4. **Run the Project**
+
+          - Open the project in your IDE (IntelliJ, Eclipse).  
+          - Compile and run OnlineReservation.java.
+5. **Usage**
+
+           Run the program.
+           Follow the menu to:
+                   1. Book a new reservation
+                   2. Cancel reservation
+                   3. View reservations
+                   4. Exit
+   
+7. **Contributing**
+
+             Contributing Feel free to contribute to this project by creating issues, suggesting improvements, or submitting pull requests. Your contributions are greatly appreciated! 
+        
+
+
+   
+   
+   
+           
+
+     
+          
+
 
               
                                                                                            
