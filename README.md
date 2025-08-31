@@ -9,8 +9,9 @@ View all reservations
 Data stored securely in MySQL database
 
 Tech Stack:
-Programming Language: Java
-Database: MySQL
+. Programming Language: Java
+. Database: MySQL
+. Connector: JDBC
 
 
 Installation & Setup:
