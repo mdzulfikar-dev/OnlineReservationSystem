@@ -11,7 +11,7 @@ Data stored securely in MySQL database
 Tech Stack:
 Programming Language: Java
 Database: MySQL
-Connector: JDBC
+
 
 Installation & Setup:
 1. Clone the repository:
