@@ -4,7 +4,7 @@ The project demonstrates JDBC connectivity, SQL database handling, and object-or
 
 Features:
 Book a new reservation
-Cancel an existing reservation
+Cancel an existing reservation 
 View all reservations
 Data stored securely in MySQL database
 
